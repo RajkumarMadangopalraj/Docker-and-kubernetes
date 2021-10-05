@@ -11,14 +11,14 @@ Step3: Navigate to the folder K8S_Cluster
 Step4: Run the disable.sh script
 Note: This will disable firewall and selinux and it will reboot the server
 
-Step5: Run the  install.sh script to install all the required packages.
+Step5: Run the install.sh script to install all the required packages.
 
 Step6: Run command "kubeadm init" to initialize the kubeadm. 
 Once the command executed successfully in the end it will give you a output like below, capture it since it will bee useful to join a worker node
 
 kubeadm join 10.128.0.15:6443 --token 6qfjbq.kebpvsgetjp7zins  --discovery-token-ca-cert-hash 
 
-Step7: Run setupnetwor.sh script to set up the network
+Step7: Run setupnetwork.sh script to set up the network
 
 Step8: Run below command and verify the status of the node.
 #kubectl get nodes
