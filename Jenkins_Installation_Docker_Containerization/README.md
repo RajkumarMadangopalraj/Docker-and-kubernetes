@@ -16,7 +16,7 @@ The jenkins is exposed in port 8080 and it is running in detach mode. The volume
 
 Step 4: Verify and launch jenkins
 Check whether the docker container is running or not using below command
-# docker ps
+#docker ps
 
 Jenkins default password will be present in the particular docker container logs. How to check the logs of the container. You can pull the container ID from the “docker ps” command output
 
@@ -30,7 +30,7 @@ This may also be found at: /var/jenkins_home/secrets/initialAdminPassword
 …
 …
 
-Open a web browser and run IP address:8080
+Step 5: Open a web browser and run IP address:8080
 
 It will ask for password, Copy and paste the password present in the docker logs
  
@@ -39,7 +39,5 @@ Then Click on the "Install suggested plugins" to install the suggested plugins
 Add all the admin and password details and click submit
 
 Click on the start using Jenkins
-
-
 
 Enjoy !!!!
