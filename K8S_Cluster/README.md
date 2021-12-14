@@ -1,6 +1,7 @@
 Using the script we can install multinode kubeadm cluster ONLY in CENTOS 7.
 
 Master Node Setup
+
 Step1: Login to the server and become a root user.
 
 Step2: Git clone this repository
