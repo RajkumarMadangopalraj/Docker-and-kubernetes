@@ -51,3 +51,5 @@ sh kubeadm_configure.sh
 
 Step 8: Login to masternode and run below command and confirm both the nodes are connected togather.
 #kubectl get nodes
+
+Step 9: Try creating a new pods and make sure it is in running state.
